@@ -1,0 +1,22 @@
+body {
+  background-color: #eaeaea;
+}
+
+header {
+  height: 15vh;
+  background-color: #384044;
+}
+
+main {
+  background-color: #ffffff;
+  margin: auto;
+  width: 80%;
+  height: 75vh;
+}
+
+footer {
+  background-color: #000000;
+  margin: auto;
+  width: 80%;
+  height: 10vh;
+}
