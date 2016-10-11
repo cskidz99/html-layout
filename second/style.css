@@ -2,33 +2,43 @@
   box-sizing: border-box;
 }
 
+
+
 body {
-  background-color: #eaeaea;
+
 }
 
 header {
-  height: 15vh;
-  background-color: #384044;
+  background-color: #32b8d5;
 }
 
 main {
-  background-color: #ffffff;
-  margin: auto;
-  width: 80%;
-  height: 75vh;
+  background-color: #60d29f;
 }
 
 footer {
-  background-color: #000000;
-  margin: auto;
-  width: 80%;
-  height: 10vh;
+
+}
+
+body {
+  margin: 0;
 }
 
 .column {
-  height: 30vh;
+  height: 100vh;
   width: calc(100vw/3);
-  background-color: purple;
   display:inline-block;
   float: left;
+}
+
+.top {
+  height: 75vh;
+  background-color: #c4cb4e;
+}
+
+.image-placeholder {
+  height: 25vh;
+  background-color: red;
+  text-align: center;
+  padding: 12vh;
 }
