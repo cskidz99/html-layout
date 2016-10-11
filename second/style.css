@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+header {
+  height: 15vh;
+  background-color: #384044;
+}
+
+main {
+  background-color: #ffffff;
+  margin: auto;
+  width: 80%;
+  height: 75vh;
+}
+
+footer {
+  background-color: #000000;
+  margin: auto;
+  width: 80%;
+  height: 10vh;
+}
+
+.column {
+  height: 30vh;
+  width: calc(100vw/3);
+  background-color: purple;
+  display:inline-block;
+  float: left;
+}
